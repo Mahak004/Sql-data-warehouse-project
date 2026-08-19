@@ -65,7 +65,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_sales_details;
 		PRINT '>> Inserting Data Into: bronze.crm_sales_details';
 		BULK INSERT bronze.crm_sales_details
-		FROM 'C:C:\Users\India\OneDrive\Desktop\sql\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
+		FROM 'C:\Users\India\OneDrive\Desktop\sql\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
